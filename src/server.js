@@ -3,7 +3,7 @@ const nunjucks = require('nunjucks')
 const path = require('path')
 
 class App {
-  construtor () {
+  constructor () {
     this.express = express()
     this.isDev = process.env.NODE_ENV !== 'production'
 
